@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="assets/img/logo-site.jpg" type="image/jpg">
+        <!--Remixicons-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+        <!--Swiper-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <!--CSS-->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <title>Martin Vidal Porfolio</title>
+    </head>
+    <body>
+        <!--Header-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="#home" class="nav__link active-link">Hello</a>
+                        </li>
+
+                        <li>
+                            <a href="#competences" class="nav__link">Compétences</a>
+                        </li>
+
+                        <li>
+                            <a href="#resume" class="nav__link">Resumé</a>
+                        </li>
+
+                        <li>
+                            <a href="#projets" class="nav__link">Projets</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-fill"></i>
+                    </div>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-fill"></i>
+                </div>
+            </nav>
+        </header>
+        <!--Main-->
+        <main class="main view">
+            <!--Home-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/home.jpg" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__name">Martin Vidal_</h1>
+                        <p class="home__work">Etudiant en 2ème année à l'IUT Informatique de Reims</p>
+                        <dl class="home__list">
+                            <dt>AGE:</dt>
+                            <dd>19</dd>
+                            <dt>EMAIL:</dt>
+                            <dd>martinlvidalpro@gmail.com</dd>
+                        </dl>
+                        <div class="home__socials">
+                            <a href="https://github.com/Murdawaq" target="_blank" class="home__social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/martin-vidal-b28b42273/" target="_blank" class="home__social-link">
+                                <i class="ri-linkedin-box-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Hello-->
+            <div id="fbg">
+            <section class="hello section container block">
+                <h2 class="section__title typewriter">Salut_</h2>
+
+                <p class="hello__details text-lg">
+                    Je m'appelle Martin Vidal, actuellement en 2ᵉ année à l'IUT Informatique de Reims, où je me spécialise en C++ 
+                    dans le cadre de ma formation. Passionné par l'informatique et le développement, j'ai acquis une solide maîtrise de plusieurs langages, 
+                    notamment HTML, CSS, Python, PHP, JavaScript et SQL. Mon parcours me permet d'aborder des projets variés avec une approche rigoureuse 
+                    et créative.</p>
+                    <p class="hello__details text-lg">En dehors du développement, j'adore la musique !! 
+                        J'ai terminé mes études au trombone avec un diplôme d'études musicales du CRR de Reims. 
+                        Je fais également partie du Quatuordinaire (quatuor de trombones) qui se produit dans la 
+                        région Grand-Est.
+                </p>
+                <a href="assets/img/CV_Martin.pdf" class="button button--flex text-sm">
+                    <i class="ri-file-download-line"></i> DOWNLOAD CV
+                </a>
+            </section>
+            </div>
+
+            <!--Skills-->
+            <div id="sbg">
+            <section class="services section container block" id="competences">
+                <h2 class="section__title">Compétences_</h2>
+
+                <div class="services__categories">
+                    <button class="services__btn text-sm active-work"
+                    data-filter="all">
+                        ALL
+                    </button>
+                    <button class="services__btn text-sm" data-filter=".lan">Langages</button>
+                    <button class="services__btn text-sm" data-filter=".fra">Framworks</button>
+                    <button class="services__btn text-sm" data-filter=".log">Logiciels</button>
+                </div>
+
+                <div class="services__container grid">
+                    <div class="services__item mix lan">
+                        <div class="icon__box">
+                            <img 
+                            src="assets/img/skills/html5.svg" 
+                            alt="" 
+                            class="services__icon"
+                            />
+                        </div>
+
+                        <h3 class="services__title text-lg">HTML</h3>
+                    </div>
+
+                    <div class="services__item mix lan">
+                        <div class="icon__box">
+                            <img 
+                            src="assets/img/skills/css.svg" 
+                            alt="" 
+                            class="services__icon"
+                            />
+                            <div class="services__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+
+                        <h3 class="services__title text-lg">CSS</h3>
+                    </div>
+
+                    <div class="services__item mix lan">
+                        <div class="icon__box">
+                            <img 
+                            src="assets/img/skills/python-logo-only.png" 
+                            alt="" 
+                            class="services__icon"
+                            />
+                            <div class="services__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+
+                        <h3 class="services__title text-lg">Python</h3>
+                    </div>
+
+                    <div class="services__item mix lan">
+                        <div class="icon__box">
+                            <img 
+                            src="assets/img/skills/javascript.svg" 
+                            alt="" 
+                            class="services__icon"
+                            />
+                            <div class="services__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+
+                        <h3 class="services__title text-lg">JavaScript</h3>
+                    </div>
+
+                    <div class="services__item mix lan">
+                        <div class="icon__box">
+                            <img 
+                            src="assets/img/skills/php-logo-png.png" 
+                            alt="" 
+                            class="services__icon"
+                            />
+                            <div class="services__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+
+                        <h3 class="services__title text-lg">php</h3>
+                    </div>
+
+                    <div class="services__item mix lan">
+                        <div class="icon__box">
+                            <img 
+                            src="assets/img/skills/logo-cpp.png" 
+                            alt="" 
+                            class="services__icon"
+                            />
+                            <div class="services__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+
+                        <h3 class="services__title text-lg">C++</h3>
+                    </div>
+
+                    <div class="services__item mix lan">
+                        <div class="icon__box">
+                            <img 
+                            src="assets/img/skills/logo-shell.jpg" 
+                            alt="" 
+                            class="services__icon"
+                            />
+                            <div class="services__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+
+                        <h3 class="services__title text-lg">Shell</h3>
+                    </div>
+
+                    <div class="services__item mix lan">
+                        <div class="icon__box">
+                            <img 
+                            src="assets/img/skills/logo-markdown.png" 
+                            alt="" 
+                            class="services__icon"
+                            />
+                            <div class="services__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+
+                        <h3 class="services__title text-lg">Markdown</h3>
+                    </div>
+
+                    <div class="services__item mix lan">
+                        <div class="icon__box">
+                            <img 
+                            src="assets/img/skills/logo-oracle-sql.png" 
+                            alt="" 
+                            class="services__icon"
+                            />
+                            <div class="services__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+
+                        <h3 class="services__title text-lg">SQL</h3>
+                    </div>
+
+                    <div class="services__item mix fra">
+                        <div class="icon__box">
+                            <img 
+                            src="assets/img/skills/logo-symfony.png" 
+                            alt="" 
+                            class="services__icon"
+                            />
+                            <div class="services__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+
+                        <h3 class="services__title text-lg">Symfony</h3>
+                    </div>
+
+                    <div class="services__item mix log">
+                        <div class="icon__box">
+                            <img 
+                            src="assets/img/skills/pycharm-logo.png" 
+                            alt="" 
+                            class="services__icon"
+                            />
+                            <div class="services__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+
+                        <h3 class="services__title text-lg">PyCharm</h3>
+                    </div>
+
+                    <div class="services__item mix log">
+                        <div class="icon__box">
+                            <img 
+                            src="assets/img/skills/phpstorm-logo.png" 
+                            alt="" 
+                            class="services__icon"
+                            />
+                            <div class="services__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+
+                        <h3 class="services__title text-lg">PhpStorm</h3>
+                    </div>
+
+                    <div class="services__item mix log">
+                        <div class="icon__box">
+                            <img 
+                            src="assets/img/skills/sqldev-logo.png" 
+                            alt="" 
+                            class="services__icon"
+                            />
+                            <div class="services__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+
+                        <h3 class="services__title text-lg">SQL Developer</h3>
+                    </div>
+
+                    <div class="services__item mix log">
+                        <div class="icon__box">
+                            <img 
+                            src="assets/img/skills/jupyter-logo.png" 
+                            alt="" 
+                            class="services__icon"
+                            />
+                            <div class="services__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+
+                        <h3 class="services__title text-lg">Jupyter</h3>
+                    </div>
+
+                    <div class="services__item mix log">
+                        <div class="icon__box">
+                            <img 
+                            src="assets/img/skills/vscode-logo.jpg" 
+                            alt="" 
+                            class="services__icon"
+                            />
+                            <div class="services__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+
+                        <h3 class="services__title text-lg">Visual Studio Code</h3>
+                    </div>
+                </div>
+            </section>
+            </div>
+
+            <!--Resume-->
+            <div id="tbg">
+            <section class="section container block" id="resume">
+                <h2 class="section__title">Resumé_</h2>
+
+                <div class="resume__container grid">
+                    <div class="resume__data">
+                        <h3 class="resume__title text-sm">PARCOURS SCOLAIRE</h3>
+
+                        <div class="resume__item">
+                            <h3 class="resume__subtitle text-sm">IUT INFORMATIQUE DE REIMS</h3>
+                            <p class="resume__data text-sm">2023 - En cours...</p>
+                            <p class="resume__description text-lg">
+                                2ème année | Parcours C++ 
+                            </p>
+                        </div>
+
+                        <div class="resume__item">
+                            <h3 class="resume__subtitle text-sm">LYCEE FRANKLIN ROOSEVELT REIMS</h3>
+                            <p class="resume__data text-sm">2021 - 2023</p>
+                            <p class="resume__description text-lg">
+                                Je suis entré en première au Lycée Roosevelt pour suivre la spécialité Numérique et Sciences Informatiques, 
+                                qui m'intéressait beaucoup, ainsi que les spécialités Mathématiques et Langues, 
+                                Littératures et Civilisations Étrangères.
+                            </p>
+                            <br>
+                            <p class="resume__description text-lg">
+                                En terminal je décide de conserver les matières scientifiques afin de pouvoir m'orienter
+                                dans le monde du Numérique.
+                            </p>
+                            <br>
+                            <p class="resume__description text-lg">
+                                J'obtiens mon Baccalauréat Général avec Mention Assez-Bien.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="resume__data">
+                        <h3 class="resume__title text-sm">EXPÉRIENCES PROFESSIONNELLES</h3>
+
+                        <div class="resume__item">
+                            <h3 class="resume__subtitle text-sm">PRESSOIRS PICARDS</h3>
+                            <p class="resume__data text-sm">06/2023 | 06/2024</p>
+                            <p class="resume__description text-lg">
+                                Palissage d'une surface de 5 hectares en équipe.
+                            </p>
+                        </div>
+
+                        <div class="resume__item">
+                            <h3 class="resume__subtitle text-sm">PROFESSEUR PARTICULIER</h3>
+                            <p class="resume__data text-sm">2022 - 2023</p>
+                            <p class="resume__description text-lg">
+                                Durant un an, j'ai eu la chance de donner des cours particuliers de Formation Musicale
+                                à un élève en difficulté.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="resume__data">
+                        <h3 class="resume__title text-sm">PARCOURS MUSICALE</h3>
+
+                        <div class="resume__item">
+                            <h3 class="resume__subtitle text-sm">PRIX MUSIQUE DE CHAMBRE</h3>
+                            <p class="resume__data text-sm">31/05/2024</p>
+                            <p class="resume__description text-lg">
+                                Fin Mai 2024, j'obtiens mon prix de musique de chambre en
+                                <a href="https://fr.wikipedia.org/wiki/Quintette_de_cuivres" target="_blank">quintette de cuivres</a>.
+                            </p>
+                        </div>
+
+                        <div class="resume__item">
+                            <h3 class="resume__subtitle text-sm">OBTENTION DEM</h3>
+                            <p class="resume__data text-sm">9/04/2024</p>
+                            <p class="resume__description text-lg">
+                                En avril 2024, j'obtiens mon Diplôme d'Études Musicales 
+                                qui me permet maintenant d'être professeur de trombone.
+                                <br>
+                                Le programme était le suivant :
+                            </p>
+                        </br>
+                            <ul>
+                                <li><a href="https://www.youtube.com/watch?v=6PSuGVKzJj0" target="_blank">Aria, Scherzo et Final</a> de <a href="https://fr.wikipedia.org/wiki/Jean_Aubain" target="_blank">Jean AUBAIN</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=iX9AgiXRAGM" target="_blank">Sonate N° 1</a> de <a href="https://fr.wikipedia.org/wiki/Johann_Ernst_Galliard" target="_blank">Johann Ernst GALLIARD</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=PpLC0rZIJ9U" target="_blank">Trois Miniatures</a> de <a href="https://www.gerardbuquet.eu/fr/" target="_blank">Gérard BUQUET</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="resume__item">
+                            <h3 class="resume__subtitle text-sm">VAINQUEUR CONCOURS TREMPLIN</h3>
+                            <p class="resume__data text-sm">30/03/2024</p>
+                            <p class="resume__description text-lg">
+                                Vainqueurs de la première édition du concours tremplin <a href="https://www.bullesdecuivres.fr/" target="_blank">Bulles de Cuivres</a> 2024
+                                avec le Quatuordinaire.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            </div>
+
+            <!--Projects-->
+            <div id="fobg">
+            <section class="work section container block" id="projets">
+                <h2 class="section__title">Projets_</h2>
+
+                <div class="project__categories">
+                    <button class="category__btn text-sm active-work"
+                    data-filter="all">
+                        ALL
+                    </button>
+                    <button class="category__btn text-sm" data-filter=".edu">Scolaire</button>
+                    <button class="category__btn text-sm" data-filter=".per">Perso</button>
+                </div>
+
+                <div class="projects__container grid">
+                    <div class="project__item grid mix edu">
+                        <img 
+                        src="assets/img/home-page-tvshow.png" 
+                        alt="" 
+                        class="project__img"
+                        />
+
+                        <div class="project__data">
+                            <h3 class="project__title text-lg">APPLICATION WEB CRUD SERIES</h3>
+                            <p class="project__description">
+                                Projet de fin de 1ère année consistant à 
+                                développer une application web permettant de consulter 
+                                et de modifier une base de données contenant des 
+                                informations sur des séries TV.
+                            </p>
+                            <h4 class="project__stack text-xs">USED STACK:</h4>
+                            <ul class="tags text-sm">
+                                <li>html</li>
+                                <li>css</li>
+                                <li>php</li>
+                                <li>mysql</li>
+                                <li>javascript</li>
+                            </ul>
+
+                            <a href="https://github.com/Murdawaq/CRUD_TvShow" class="project__link text-sm">Lien vers le projet</a>
+                        </div>
+                    </div>
+
+                    <div class="project__item grid mix per">
+                        <img 
+                        src="assets/img/escape-the-maze.png" 
+                        alt="" 
+                        class="project__img"
+                        />
+
+                        <div class="project__data">
+                            <h3 class="project__title text-lg">Escape The Maze</h3>
+                            <p class="project__description">
+                                "Escape the Maze" est un jeu issue d'une SAE autour des graphes 
+                                et plus précisément des labyrinthes où le joueur doit naviguer 
+                                à travers un labyrinthe complexe pour atteindre la sortie.
+                            </p>
+                            <h4 class="project__stack text-xs">USED STACK:</h4>
+                            <ul class="tags text-sm">
+                                <li>python</li>
+                                <li>windows-curses</li>
+                            </ul>
+
+                            <a href="https://github.com/Murdawaq/EscapeTheMaze" class="project__link text-sm">Lien vers le projet</a>
+                        </div>
+                    </div>
+
+                    <div class="project__item grid mix edu">
+                        <img 
+                        src="assets/img/connect-four.png" 
+                        alt="" 
+                        class="project__img"
+                        />
+
+                        <div class="project__data">
+                            <h3 class="project__title text-lg">Connect Four</h3>
+                            <p class="project__description">
+                                "Connect Four" ou plutôt connu sous le nom de puissance 4 en français est le premier
+                                projet réalisé en python durant le 1er semestre à l'IUT Informatique.
+                            </p>
+                            <h4 class="project__stack text-xs">USED STACK:</h4>
+                            <ul class="tags text-sm">
+                                <li>python</li>
+                                <li>pygame</li>
+                            </ul>
+
+                            <a href="https://github.com/Murdawaq/Connect_Four" class="project__link text-sm">Lien vers le projet</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+
+            <!--Contact-->
+            <section class="contact section" id="contact">
+                <div class="contact__content container">
+                    <h2 class="section__title">Contactez-moi_</h2>
+
+                    <div class="contact__container grid">
+                        <div class="contact__info">
+                            <dl class="contact__list">
+                                <dt>Email:</dt>
+                                <dd>martinlvidalpro@gmail.com</dd>
+                            </dl>
+
+                            <ul class="contact__socials">
+                                <li>
+                                    <a href="https://www.linkedin.com/in/martin-vidal-b28b42273/" class="contact__social-link">Linkedin</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/Murdawaq" class="contact__social-link">GitHub</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="contact__form">
+                            <p class="contact__form-title">
+                                Ou écrivez-moi simplement ici
+                            </p>
+
+                            <form action="" id="contact-form">
+                                <div class="contact__input-div">
+                                    <input 
+                                        type="text"
+                                        name="name"
+                                        placeholder="Your name" 
+                                        class="contact__input" 
+                                        id="contact-name" 
+                                    />
+                                </div>
+
+                                <div class="contact__input-div">
+                                    <input 
+                                        type="email" 
+                                        name="email"
+                                        placeholder="Your e-mail" 
+                                        class="contact__input" 
+                                        id="contact-email" 
+                                    />
+                                </div>
+
+                                <div class="contact__input-div">
+                                    <textarea
+                                        name="message"
+                                        placeholder="Type the message here"
+                                        class="contact__input textarea"
+                                        id="message" 
+                                        cols="30" 
+                                        rows="10">
+                                    </textarea>
+                                </div>
+
+                                <p class="contact__message text-sm" 
+                                id="contact-message">
+                                    Message
+                                </p>
+
+                                <button type="submit" class="button contact__button">
+                                    SEND
+                                </button>
+                            </form>
+
+                            <p class="footer__copy">
+                                &copy; 2024 Martin Vidal. All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--Mixitup-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--EmailJS-->
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+
+        <!--JS-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
