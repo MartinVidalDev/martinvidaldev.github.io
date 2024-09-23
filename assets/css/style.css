@@ -468,10 +468,6 @@ input {
     margin-bottom: 0.7em;
 }
 
-.resume__description {
-    text-align: justify;
-}
-
 /*=============== Skills ===============*/
 .skills__container {
     grid-template-columns: repeat(2, 445px);
@@ -830,10 +826,9 @@ input {
     text-align: center;
 }
 
-/*=============== Blog Details ===============*/
-
-/*=============== Style Switcher ===============*/
-
+i.ri-menu-fill {
+    color: black;
+}
 /*=============== BreakPoints ===============*/
 /* for large devices */
 @media screen and (max-width: 1200px) {
