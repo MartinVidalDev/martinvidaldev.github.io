@@ -558,13 +558,12 @@ input {
 
 .project__img {
     width: 100%;
-    height: 100%;
-    /*object-fit: cover;*/
+    height: auto;
+    object-fit: cover;
 }
 
 .project__data {
     padding: 3rem 3rem 2.5rem 1.875rem;
-    border: 1px solid #4f4f4f;
 }
 
 .project__title {
