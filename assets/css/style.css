@@ -989,7 +989,7 @@ i.ri-menu-fill {
 }
 
 /* for small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
     :root {
         --fs-h1: 2rem;
     }
